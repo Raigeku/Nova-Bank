@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "Nova — La banca che si muove con te",
+    "description": "Spendi, risparmia e fai crescere i tuoi soldi con Nova, la banca digitale per privati e aziende."
+  },
+  "nav": {
+    "personal": "Privati",
+    "business": "Aziende",
+    "cta": "Apri un conto",
+    "language": "Cambia lingua",
+    "theme": "Attiva/disattiva tema scuro"
+  },
+  "footer": {
+    "tagline": "Una banca che sembra il futuro. Pensata per le persone e per le aziende che costruiscono.",
+    "legal": "Nova Bank è un marchio fittizio. Questo sito è un prototipo di design e non offre servizi finanziari reali."
+  },
+  "scene": {
+    "hint": "Clicca e trascina per ruotare la carta"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Novità: carte istantanee in oltre 150 paesi",
+      "title": "I tuoi soldi,",
+      "highlight": "senza pensieri.",
+      "subtitle": "Un'unica app per spendere, risparmiare, investire e inviare denaro in tutto il mondo. Niente costi nascosti, code o scartoffie.",
+      "primary": "Apri un conto",
+      "secondary": "Nova per le aziende"
+    },
+    "marquee": ["Bonifici istantanei", "Oltre 150 valute", "Zero costi nascosti", "Risparmio smart", "Carte virtuali", "Assistenza 24/7"],
+    "features": {
+      "title": "Tutto ciò che serve ai tuoi soldi.",
+      "subtitle": "Costruita da zero per il modo in cui vivi, spendi e viaggi davvero.",
+      "items": [
+        { "icon": "zap", "title": "Pagamenti istantanei", "text": "Invia e ricevi denaro in pochi secondi, ogni giorno dell'anno." },
+        { "icon": "globe", "title": "Spendi all'estero", "text": "Tassi di cambio reali in oltre 150 valute, ovunque tu sia." },
+        { "icon": "shield", "title": "Sicurezza bancaria", "text": "Accesso biometrico, blocco carta e notifiche in tempo reale." },
+        { "icon": "piggy", "title": "Salvadanai smart", "text": "Arrotonda gli acquisti e guarda i risparmi crescere da soli." },
+        { "icon": "card", "title": "Carte virtuali", "text": "Carte usa e getta per acquisti online più sicuri, create con un tap." },
+        { "icon": "chart", "title": "Analisi delle spese", "text": "Scopri dove vanno i tuoi soldi con grafici automatici." }
+      ]
+    },
+    "showcase": {
+      "title": "Tutta la tua vita finanziaria, in tasca.",
+      "subtitle": "Scorri per esplorare l'app.",
+      "points": [
+        { "title": "Tutto a colpo d'occhio", "text": "Saldi, carte e ogni movimento, aggiornati in tempo reale." },
+        { "title": "Capisci le tue spese", "text": "Categorie automatiche e budget mensili per restare in carreggiata." },
+        { "title": "Raggiungi i tuoi obiettivi", "text": "Imposta un traguardo, automatizza i versamenti e guarda l'anello riempirsi." }
+      ],
+      "phone": {
+        "balance": "Saldo totale",
+        "spent": "Speso questo mese",
+        "goal": "Viaggio in Giappone",
+        "tx": [
+          { "name": "Stipendio", "amount": 2850 },
+          { "name": "Caffetteria", "amount": -4.2 },
+          { "name": "Spesa", "amount": -62.35 },
+          { "name": "Biglietti treno", "amount": -38 }
+        ]
+      }
+    },
+    "stats": [
+      { "value": 12, "decimals": 0, "suffix": "M+", "label": "Clienti nel mondo" },
+      { "value": 150, "decimals": 0, "suffix": "+", "label": "Valute supportate" },
+      { "value": 4.8, "decimals": 1, "suffix": "★", "label": "Valutazione sugli store" },
+      { "value": 0, "decimals": 0, "suffix": "€", "label": "Canone mensile per iniziare" }
+    ],
+    "teaser": {
+      "title": "Scegli il Nova fatto per te.",
+      "personal": { "title": "Privati", "text": "Piani per spese quotidiane, viaggi e risparmio. Dal gratuito al Metal." },
+      "business": { "title": "Aziende", "text": "Conti, carte per il team e fatturazione, dai freelance alle scale-up." }
+    }
+  },
+  "cta": {
+    "title": "Entra nel futuro della banca.",
+    "subtitle": "Apri il tuo conto in meno di 5 minuti, direttamente dal telefono.",
+    "button": "Inizia ora — è gratis"
+  },
+  "plans": {
+    "billing": "Periodo di fatturazione",
+    "monthly": "Mensile",
+    "yearly": "Annuale",
+    "save": "Risparmia 2 mesi con il piano annuale",
+    "perMonth": "/mese",
+    "free": "Gratis",
+    "custom": "Su misura",
+    "popular": "Più scelto",
+    "choose": "Scegli il piano",
+    "contact": "Contatta le vendite"
+  },
+  "personal": {
+    "hero": {
+      "eyebrow": "Conti per privati",
+      "title": "Un piano per ogni",
+      "highlight": "stile di vita.",
+      "subtitle": "Inizia gratis e passa a un piano superiore quando vuoi più vantaggi, più cashback e più mondo.",
+      "primary": "Vedi i piani",
+      "secondary": "Cerchi un conto aziendale?"
+    },
+    "plansTitle": "Scegli il tuo piano",
+    "plans": {
+      "standard": { "name": "Standard", "tagline": "L'essenziale, gratis per sempre.", "features": ["Carta di debito gratuita", "Bonifici in EUR gratuiti", "Analisi delle spese", "Prelievi gratuiti fino a 200 €"] },
+      "plus": { "name": "Plus", "tagline": "Un piccolo extra, ogni giorno.", "features": ["Tutto di Standard", "Protezione acquisti", "Assistenza prioritaria", "Prelievi gratuiti fino a 400 €"] },
+      "premium": { "name": "Premium", "tagline": "Pensato per chi viaggia.", "features": ["Tutto di Plus", "Cambio valuta illimitato", "Assicurazione viaggio", "1% di cashback all'estero"] },
+      "metal": { "name": "Metal", "tagline": "La carta definitiva.", "features": ["Tutto di Premium", "Esclusiva carta in metallo", "Accesso alle lounge aeroportuali", "1% di cashback ovunque"] }
+    },
+    "compare": {
+      "title": "Confronta i piani",
+      "rows": [
+        { "label": "Carte virtuali", "values": ["1", "3", "5", "Illimitate"] },
+        { "label": "Prelievi gratuiti", "values": ["200 €", "400 €", "800 €", "1.200 €"] },
+        { "label": "Cambio valuta", "values": ["1.000 €/mese", "3.000 €/mese", "Illimitato", "Illimitato"] },
+        { "label": "Cashback", "values": ["—", "—", "1% all'estero", "1% ovunque"] },
+        { "label": "Assicurazione viaggio", "values": ["—", "—", "✓", "✓"] },
+        { "label": "Accesso lounge", "values": ["—", "—", "—", "✓"] }
+      ]
+    },
+    "faq": {
+      "title": "Domande?",
+      "items": [
+        { "q": "Quanto tempo serve per aprire un conto?", "a": "Quasi tutti finiscono in meno di 5 minuti. Ti servono solo il telefono e un documento valido." },
+        { "q": "Posso cambiare piano in seguito?", "a": "Sì, puoi passare a un piano superiore o inferiore in qualsiasi momento dall'app. Le modifiche valgono dal ciclo successivo." },
+        { "q": "I miei soldi sono al sicuro?", "a": "Questo è un marchio dimostrativo, ma una banca reale tutelerebbe i depositi tramite un fondo nazionale di garanzia." },
+        { "q": "Ci sono costi nascosti?", "a": "No. Ogni costo è indicato nell'app prima di confermare qualsiasi operazione." }
+      ]
+    }
+  },
+  "business": {
+    "hero": {
+      "eyebrow": "Nova Business",
+      "title": "Gestisci la tua azienda,",
+      "highlight": "non la tua banca.",
+      "subtitle": "Conti multivaluta, carte per il team, fatturazione e API aperte, tutto in un unico posto.",
+      "primary": "Vedi i piani",
+      "secondary": "Conti per privati"
+    },
+    "features": {
+      "title": "Pensata per team che vanno veloci.",
+      "subtitle": "Dai freelance alle scale-up, Nova cresce con te.",
+      "items": [
+        { "icon": "users", "title": "Carte per il team", "text": "Emetti carte fisiche e virtuali con limiti personalizzati in pochi secondi." },
+        { "icon": "receipt", "title": "Fatture e spese", "text": "Invia fatture, fotografa gli scontrini e riconcilia in automatico." },
+        { "icon": "code", "title": "API aperte", "text": "Automatizza i pagamenti e collega i tuoi strumenti di contabilità." },
+        { "icon": "globe", "title": "Pagamenti globali", "text": "Paga i fornitori in oltre 150 valute al tasso reale." },
+        { "icon": "chart", "title": "Analisi del cash flow", "text": "Dashboard in tempo reale per ogni conto e team." },
+        { "icon": "shield", "title": "Ruoli e approvazioni", "text": "Permessi granulari e approvazioni dei pagamenti in più passaggi." }
+      ]
+    },
+    "plansTitle": "Piani per ogni fase",
+    "plans": {
+      "basic": { "name": "Basic", "tagline": "Per freelance agli inizi.", "features": ["1 conto aziendale", "2 membri del team", "Bonifici locali inclusi", "Fatturazione"] },
+      "grow": { "name": "Grow", "tagline": "Per team in crescita.", "features": ["Tutto di Basic", "10 membri del team", "100 bonifici internazionali", "Gestione spese"] },
+      "scale": { "name": "Scale", "tagline": "Per aziende affermate.", "features": ["Tutto di Grow", "Membri del team illimitati", "1.000 bonifici internazionali", "Accesso API"] },
+      "enterprise": { "name": "Enterprise", "tagline": "Su misura per te.", "features": ["Tutto di Scale", "Account manager dedicato", "Limiti personalizzati", "SLA e assistenza premium"] }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg: #f7f7fa;
+  --fg: #0b0b12;
+  --muted: #5d6070;
+  --card: #ffffff;
+  --border: rgb(10 10 20 / 0.08);
+  --accent: #6b4dff;
+  --accent-2: #00b7ff;
+  --accent-3: #ff4fd8;
+}
+
+.dark {
+  --bg: #07070c;
+  --fg: #f4f4f8;
+  --muted: #9a9cad;
+  --card: #12131c;
+  --border: rgb(255 255 255 / 0.09);
+  --accent: #8a72ff;
+  --accent-2: #2cc7ff;
+  --accent-3: #ff6ade;
+}
+
+/* Typed color tokens can be transitioned, so a theme switch fades every color using them */
+@property --bg { syntax: "<color>"; inherits: true; initial-value: #f7f7fa; }
+@property --fg { syntax: "<color>"; inherits: true; initial-value: #0b0b12; }
+@property --muted { syntax: "<color>"; inherits: true; initial-value: #5d6070; }
+@property --card { syntax: "<color>"; inherits: true; initial-value: #ffffff; }
+@property --border { syntax: "<color>"; inherits: true; initial-value: rgb(10 10 20 / 0.08); }
+@property --accent { syntax: "<color>"; inherits: true; initial-value: #6b4dff; }
+@property --accent-2 { syntax: "<color>"; inherits: true; initial-value: #00b7ff; }
+@property --accent-3 { syntax: "<color>"; inherits: true; initial-value: #ff4fd8; }
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    transition-property: --bg, --fg, --muted, --card, --border, --accent, --accent-2, --accent-3;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-3: var(--accent-3);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.text-gradient {
+  background: linear-gradient(100deg, var(--accent), var(--accent-2) 55%, var(--accent-3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-brand {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2) 60%, var(--accent-3));
+}
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+.animate-marquee { animation: marquee 35s linear infinite; }
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow { animation: spin-slow 14s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee, .animate-spin-slow { animation: none; }
+}
